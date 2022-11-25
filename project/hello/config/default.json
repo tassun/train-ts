@@ -1,8 +1,8 @@
 {
-    "DB_URL":"mysql://root:root@localhost:3306/accessdb?charset=utf8&connectionLimit=10",
+    "DB_URL":"mysql://user:password@localhost:3306/testdb?charset=utf8&connectionLimit=10",
     "authentications": [
-        { "authtype":"WOW", "domainname":"freewillsolutions.com", "tenanturl":"https://rm.ezwow.io/ezwow-gateway/api/login", "basedn":"" , "enabled": true },
-        { "authtype":"NEWS", "domainname":"freewillsolutions.com", "tenanturl":"https://notify-devvoffice.freewillsolutions.com/ezlogin", "basedn":"" , "enabled": true },
-        { "authtype":"AD", "domainname":"freewillgroup.com", "tenanturl":"ldap://10.22.91.24:389", "basedn":"DC=freewillgroup,DC=com" , "enabled": true }
+        { "authtype":"WOW", "domainname":"mydomain.com", "tenanturl":"https://my-domain/api/login", "basedn":"" , "enabled": true },
+        { "authtype":"NEWS", "domainname":"mydomain.com", "tenanturl":"https://my-domain/login", "basedn":"" , "enabled": true },
+        { "authtype":"AD", "domainname":"mydomain.com", "tenanturl":"ldap://mydomain:389", "basedn":"DC=mydomain,DC=com" , "enabled": true }
     ]
 }
