@@ -1,0 +1,31 @@
+Type Script Exercise
+1. declare interface VehicleInterface with properties:
+	brand: string
+	model: string
+	year: number
+2. create Vehicle class implement VehicleInterface with constructor 
+	parameters by interface properties
+3. create Car class extend Vehicle class	 and more properties:
+	color: string
+4. In the car garage this is car lists:
+
+	let cars = new Array<Car>(
+		new Car("Toyota","Corolla",2000,"gray"),
+		new Car("Toyota","Corolla",2002,"red"),
+		new Car("Toyota","Vios",2005,"black"),
+		new Car("Toyota","Vios",2007,"navy"),
+		new Car("Toyota","Vios",2010,"beige"),
+		new Car("Toyota","Altis",2010,"blond"),
+		new Car("Toyota","Altis",2012,"gold"),
+		new Car("Toyota","Altis",2015,"blue"),
+		new Car("Toyota","Yaris",2015,"silver"),
+		new Car("Toyota","Yaris",2018,"brown")
+	);
+
+	4.1 find out distinct car model (how many car model?)
+	4.2 check cars has color black or white?
+	4.3 find out first car that year 2009 and 2010?
+	4.4 find out cars usage that more than 10 years.
+	4.5 from cars 4.4 change all cars color to black
+	4.6 summary cars ages from 4.5
+
