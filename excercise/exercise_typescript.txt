@@ -28,4 +28,6 @@ Type Script Exercise
 	4.4 find out cars usage that more than 10 years.
 	4.5 from cars 4.4 change all cars color to black
 	4.6 summary cars ages from 4.5
-
+	4.7 try to sort car list with year descending
+	4.8 try to group car by model
+	
